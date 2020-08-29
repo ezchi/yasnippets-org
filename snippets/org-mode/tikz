@@ -1,10 +1,10 @@
 # -*- mode: snippet -*-
-# name: tikz-png
-# key: tikz-png
+# name: tikz
+# key: tikz
 # --
 
-#+header: :imagemagick yes :fit yes
-#+header: :file ${1:img}.png
+${1:$(tikz-png-header yas-text)}
+#+header: :file ${1:img.png}
 #+header: :results file graphics :headers '("\\\\usepackage{tikz}")
 #+begin_src latex
 \begin{tikzpicture}
