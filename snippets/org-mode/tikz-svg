@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: tikz-svg
+# key: tikz-svg
+# --
+
+#+header: :file ${1:img}.svg
+#+header: :results file graphics :headers '("\\\\usepackage{tikz}")
+#+begin_src latex
+\begin{tikzpicture}
+$0
+\end{tikzpicture}
+#+end_src
