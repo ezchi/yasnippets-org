@@ -5,7 +5,7 @@
 
 #+header: :imagemagick yes :fit yes
 #+header: :file ${1:img.png}
-#+header: :results file graphics :headers '("\\usepackage{tikz}")
+#+header: :results file graphics :headers '("\\\\usepackage{tikz}")
 #+begin_src latex
 \begin{tikzpicture}
 $0
