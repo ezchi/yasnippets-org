@@ -23,7 +23,7 @@
   "Return header for PNG file if F is a PNG file."
   (if (and f
            (string= (file-name-extension f) "png"))
-      "#+header: :imagemagick yes :fit yes"
+      "#+header: :imagemagick yes :iminoptions -density 600 :imoutoptions -geometry 400"
     nil))
 
 ;;; .yas-setup.el ends here
