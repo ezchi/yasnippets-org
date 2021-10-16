@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: src-jupyter-python
+# key: <.ipynb
+# group: babel
+# --
+
+#+begin_src jupyter-python
+$0
+#+end_src
