@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: src-cpp
+# key: <.cpp
+# group: babel
+# --
+
+#+begin_src C++
+$0
+#+end_src
