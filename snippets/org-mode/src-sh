@@ -1,9 +1,9 @@
 # -*- mode: snippet -*-
-# name: src-shell
-# key: <.shl
+# name: src-sh
+# key: <.sh
 # group: babel
 # --
 
-#+begin_src shell
+#+begin_src sh
 $0
 #+end_src
