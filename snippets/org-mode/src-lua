@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: src-lua
+# key: <.lua
+# group: babel
+# --
+
+#+begin_src lua
+$0
+#+end_src
